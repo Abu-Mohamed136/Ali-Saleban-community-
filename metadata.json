@@ -1,0 +1,6 @@
+{
+  "name": "CALI SALEEBAAN, KISMAYO COMMITTEE",
+  "description": "Official committee mobile and web portal for Cali Saleebaan Kismayo Committee for the expansion of Kulmis village. Member registration, contribution tracking, content ideas, calendar, notes, locations visited, and APK distribution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

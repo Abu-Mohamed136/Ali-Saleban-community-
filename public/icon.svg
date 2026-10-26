@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="50%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <circle cx="256" cy="256" r="190" fill="#0f172a" opacity="0.85" />
+  
+  <!-- Stylized Village & Unity Emblem -->
+  <g filter="url(#shadow)" fill="none" stroke="#22c55e" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Village Houses & Expansion Rising -->
+    <path d="M160 330 L160 260 L220 210 L280 260 L280 330 Z" fill="#15803d" stroke="#4ade80" />
+    <path d="M260 330 L260 230 L320 180 L380 230 L380 330 Z" fill="#1e40af" stroke="#60a5fa" />
+    <!-- Sunrise over Kulmis -->
+    <circle cx="256" cy="150" r="32" fill="#f59e0b" stroke="#fbbf24" stroke-width="6" />
+    <!-- Soil / Ground line -->
+    <path d="M120 330 L392 330" stroke="#b45309" stroke-width="16" />
+    <path d="M140 355 L372 355" stroke="#78350f" stroke-width="12" />
+  </g>
+  
+  <!-- Text Label initials -->
+  <text x="256" y="420" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="34" fill="#ffffff" letter-spacing="3">KULMIS</text>
+  <text x="256" y="455" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="18" fill="#93c5fd" letter-spacing="1">CALI SALEEBAAN · KISMAYO</text>
+</svg>
